@@ -11,7 +11,7 @@ const ClientInfo = ({ client }) => {
 				</li>
 				<li className='list-group-item'>
 					<FaEnvelope className='icon' />
-					{client.mail}
+					{client.email}
 				</li>
 				<li className='list-group-item'>
 					<FaPhone className='icon' />
